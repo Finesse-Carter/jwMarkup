@@ -1,0 +1,378 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  width:100%;
+}
+header{
+  width:100%;
+clear: both;
+}
+footer {
+    width: 100%;
+    clear: both;
+    background-color: rgb(143 156 163);
+    height: 17rem;
+}
+section{
+float: left;
+}
+h1{
+  font-size: 3.5rem;
+margin: 0 auto;
+}
+h2{
+  font-size: 2.5rem;
+}
+h3{
+  font-size: 2rem;
+}
+p{
+  font-size: 2rem;
+margin: 0 auto;
+}
+span{
+  font-weight: bold;
+}
+header li {
+    float: left;
+    list-style: none;
+    padding-left: 146px;
+}
+header button {
+    margin-left: 30px;
+    width: 9%;
+    margin-bottom: 8px;
+    background-color: black;
+    color: white;
+}
+.develop p {
+    border-top: 1px solid pink;
+    padding-left: 18px;
+}
+.box1{
+  width: 100%;
+}
+.download img {
+    width: 59%;
+    margin-left: 163px;
+}
+.develop section{
+float: left;
+width: 50%;
+}
+.contaner{
+  width:100%;
+float: left;
+background-color:whitesmoke;
+}
+.jwli {
+    float: left;
+    width: 50%;
+    background-color: whitesmoke;
+    padding: 8px 8px 8px 25px;
+}
+.download{
+  width: 50%;
+}
+.emailb{
+width: 62%;
+height: 40px;
+}
+.button{
+  width: 20%;
+  height: 40px;
+  background-color: darkgray;
+}
+.women > p{
+  color:darkgray;
+width: 100%;
+text-align: center;
+margin: 0 auto;
+}
+.our {
+    background-color: whitesmoke;
+    width: 100%;
+    padding-left: 1rem;
+}
+.our > section{
+  float:left;
+width: 50%;
+}
+.fa-bars{
+  display: none;
+}
+.text{
+  width: 80%;
+}
+.tx{
+      width: 50%;
+      float: left;
+  }
+.fam1 img{
+  width: 100%;
+}
+.fam1{
+  width:50%;
+float: none;
+}
+.fam1 p{
+text-align: center;
+}
+.atsuko{
+  float: left;
+border: 2px solid whitesmoke;
+width:100%;
+}
+.who{
+  width: 100%;
+}
+.toko{
+width: 50%;
+float: left;
+}
+.fish{
+  width:45%;
+  float: left;
+}
+.fish img {
+    width: 26%;
+}
+.lady{
+  float: left;
+}
+.atsuko .founder {
+    width: 17%;
+}
+.founder{
+  width: 100%;
+  float: left;
+}
+.founder img {
+    width: 100%;
+    float: left;
+    padding: 23px;
+}
+.sign-up button {
+    width: 14%;
+    margin-bottom: 8px;
+color:white;
+}
+.button2{
+  width: 20%;
+  height: 28px;
+  background-color: rgb(143 156 163);
+}
+footn-up p {
+    float: left;
+    width: 65%;
+    padding-left: 6rem;
+color: white;
+}
+.news {
+    float: left;
+    width: 31%;
+}
+.home{
+  list-style: none;
+color: white
+}
+.porogram{
+  list-style: none;
+  color: white
+}
+.lead{
+  list-style: none;
+  color: white
+}
+.tons{
+  width:69%;
+}
+.email2 {
+    float: left;
+    width: 22%;
+    margin-left: 56rem;
+    padding-bottom: .5rem;
+    margin-right: 1rem;
+}
+.sign-up {
+    width: 100%;
+    background-color: rgb(184 197 207);
+    padding-top: 1rem;
+}
+  .box2{
+    width: 100%;
+    float: left;
+  }
+  .copy{
+    width: 100%;
+  background-color: rgb(143 156 163);
+}
+  .copy > p {
+    width: 50%;
+float: left;
+  }
+  .copy li {
+      list-style: none;
+      float: left;
+      font-size: 2rem;
+      padding-left: 1rem;
+  }
+  .tube {
+    margin-left: 39rem;
+}
+}
+.felly{
+padding: 4px;
+    width: 22%;
+    margin-left: 62rem;
+    margin-top: 18px;
+}
+
+.felly li {
+    list-style: none;
+    color: white;
+    float: left;
+    width: 30%;
+font-weight: bold;
+}
+.porogram li {
+    list-style: none;
+    color: white;
+    width: 100%;
+}
+.home li {
+    list-style: none;
+    color: white;
+    width: 100%;
+  }
+.lead li {
+    list-style: none;
+    color: white;
+    width: 100%;
+}
+  @media screen and (min-width: 1024px){
+    section{
+    }
+  }
+@media screen and (max-width: 1280px){
+  header li {
+      float: left;
+      list-style: none;
+      padding-left: 112px;
+  }
+  .email2 {
+      float: left;
+      width: 22%;
+      margin-left: 26rem;
+      padding-bottom: .5rem;
+      margin-right: 1rem;
+  }
+}
+    @media screen and (min-width: 768px) and (max-width: 1023px){
+  
+    img{
+      display: block;
+       width: 50%;
+    }
+    header li{
+      display: none;
+    }
+    header button {
+      display: none;
+    }
+    .fa-bars {
+    float: left;
+    display: inline;
+    font-size: x-large;
+}
+.atsuko .founder {
+    width: 27%;
+}
+.fam1 {
+    width: 89%;
+    float: none;
+}
+.tx {
+    width: 73%;
+    float: left;
+}
+.founder img {
+    width: 97%;
+    padding: 23px;
+}
+.women > p {
+    color: darkgray;
+    width: 100%;
+    text-align: center;
+    margin: 3%;
+}
+  }
+  @media only screen and (max-width: 767px) {
+  section{
+  }
+  footer {
+      list-style: none;
+      color: white;
+        font-size: 2rem;
+      }
+
+  .fa-bars {
+      float: left;
+      display: inline;
+      font-size: x-large;
+  }
+  header button {
+    display: none;
+  }
+  header li{
+    display: none;
+  }
+  img{
+    display: block;
+width: 50%;
+}
+.fam1 {
+    width: 89%;
+    float: none;
+}
+.download{
+  display: none;
+}
+.jwli {
+    float: left;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 8px 8px 8px 25px;
+}
+.our > section {
+    float: left;
+    width: 100%;
+}
+.atsuko .founder {
+    width: 100%;
+}
+.tx {
+    width: 100%;
+    float: left;
+}
+.fish {
+    width: 100%;
+    float: left;
+}
+footer {
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+}
+.email2 {
+    float: left;
+    width: 32%;
+    margin-left: 6rem;
+    padding-bottom: .5rem;
+    margin-right: 1rem;
+}
+}
